@@ -46,7 +46,7 @@ Navigational Panel
 
 ### Use the rest of the page by scrolling up or down
 
-![nav-menu](./assets/images/newPortfolio3.PNG?raw-true "Body")
+![nav-menu](./assets/images/newPortfolio3.png?raw-true "Body")
 
 ### Mobile/Smaller Screen view
 
