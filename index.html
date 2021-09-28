@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,42 +9,243 @@
     <!-- Connecting CSS File  -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Connecting Font Awesome CDN  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-      <!-- Move to Top Button  -->
-      <div class="scroll-button">
-          <a href="#home"><i class="fas fa-arrow-up"></i></a>
-      </div>
-      <!-- Navigation Menu Start -->
-      <nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Move to Top Button  -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- Navigation Menu Start -->
+    <nav>
         <div class="navbar">
-          <div class="logo"><a href="#">Portfolio.</a></div>
-          <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <div class="cancel-btn">
-              <i class="fas fa-times"></i>
+            <div class="logo"><a href="#">Portfolio.</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                <!-- <a href="#"><i class="fas fa-phone fa-2x"></i></a> -->
             </div>
-          </ul>
-          <div class="media-icons">
-            <a href="#"><i class="fab fa-github fa-2x"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
-            <!-- <a href="#"><i class="fas fa-phone fa-2x"></i></a> -->
-          </div>
         </div>
         <div class="menu-btn">
-          <i class="fas fa-bars"></i>
+            <i class="fas fa-bars"></i>
         </div>
-      </nav>
-  </body>
+    </nav>
+    <!-- Home Section Start  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text">
+                <div class="text-one">Hello,</div>
+                <div class="text-two anim-typewriter">I'm Hardik Rola</div>
+                <div class="text-three">Full Stack Developer</div>
+                <!-- <div class="text-four">from Cary,NC</div> -->
+            </div>
+            <div class="button">
+                <button><a href="#work"> Show my work</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- About Sections Start  -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="./assets/images/profile.JPG" alt="" />
+                </div>
+                <div class="right">
+                    <div class="topic"></div>
+                    <p>
+                        I'm a multi-talented human with over 10+ years of experiences in
+                        wide range of IT Services, Such as Managing the project, managing
+                        multiple teams from all over the glob who provides IT hands-feet
+                        support to Healthcare, Pharmaceutical, Oil & Gas industries.
+                        <br />
+                        <br />
+                        In past few years Automation has been big part of my job where i
+                        have created Low-Code no code applications for client, using MS
+                        PowerPlatform. Also, have work with MS Botframework, Ansible, SQL,
+                        AWS, and Azure services to meet the client needs.
+                        <br />
+                        <br />
+                        <a href="https://hrsautomation20.github.io/my-portfolio/" target="_blank"><strong> Visit my Old Portfolio</strong></a>
+                    </p>
+                    <div class="button">
+                        <a href="./assets/HardikResume.pdf" download="HardikResume"><button>Download CV</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My Skill Section Start  -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">Skills and Knowledge</div>
+                    <p>
+                        I created responsive website that are fast, easy to use, and build
+                        with best practices. The main area of my expertise is font-end
+                        development and continuously learning back-end to expend my
+                        Knowledge.
+                    </p>
+                    <div class="experience">
+                        <div class="num">10+</div>
+                        <div class="exp">Years Of <br />Experience</div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic"><i class="fab fa-html5"></i> HTML</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic"><i class="fab fa-css3"></i> CSS</div>
+                        <div class="per">85%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="per">75%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic"><i class="fab fa-node-js"></i> Node.js</div>
+                        <div class="per">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My Work Section Start  -->
+    <section class="work" id="work">
+        <div class="content">
+            <div class="title"><span>My Work</span></div>
+            <div class="boxes">
+                <div class="box" onclick="window.open('https://www.google.com/')">
+                    <div class="icon">
+                        <i class="fas fa-spell-check"></i>
+                    </div>
+                    <img src="./assets/images/DefineHubMain.PNG" alt="" />
+                    <div class="topic">DefineHub (Project)</div>
+                    <p>
+                        DefineHub a site based off an in-depth explanation of the word of
+                        your choosing.
+                    </p>
+                </div>
+                <div class="box" onclick="window.open('https://www.google.com/')">
+                    <div class="icon">
+                        <i class="fas fa-cloud-sun-rain"></i>
+                    </div>
+                    <img src="./assets/images/WeatherMain.PNG" alt="" />
+                    <div class="topic">Weather Dashboard</div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
+                        saepe.
+                    </p>
+                </div>
+                <div class="box" onclick="window.open('https://www.google.com/')">
+                    <div class="icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <img src="./assets/images/WorkdayMain.PNG" alt="" />
+
+                    <div class="topic">Work Day Scheduler</div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
+                        saepe.
+                    </p>
+                </div>
+                <div class="box" onclick="window.open('https://www.google.com/')">
+                    <div class="icon">
+                        <i class="fab fa-question"></i>
+                    </div>
+                    <img src="./assets/images/CodeQuizMain.PNG" alt="" />
+
+                    <div class="topic">Code Quiz</div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
+                        saepe.
+                    </p>
+                </div>
+                <div class="box" onclick="window.open('https://www.google.com/')">
+                    <div class="icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <img src="./assets/images/PasswordMain.PNG" alt="" />
+
+                    <div class="topic">Password Generator</div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
+                        saepe.
+                    </p>
+                </div>
+                <div class="box" onclick="window.open('https://www.google.com/')">
+                    <div class="icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <img src="./assets/images/HoriseonMain.PNG" alt="" />
+
+                    <div class="topic">Horiseon Services</div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
+                        saepe.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Me Section Start  -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Contact Me</span></div>
+            <div class="text">
+                <!-- <div class="topic">Have Any Project?</div> -->
+                <!-- <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+                  impedit assumenda error asperiores adipisci cum architecto in
+                  repellendus sint culpa.
+                </p>
+                <div class="button">
+                  <button>Let's Connect</button>
+                </div> -->
+
+                <ul>
+                    <li>
+                        <p><i class="fa fa-map-marker"></i></p>
+                        <p><strong>Location</strong></br>Cary, NC</p>
+                    </li>
+                    <li>
+                        <p><i class="fa fa-phone"></i></p>
+                        <p><strong>Phone</strong></br>+1 (727) 507-1198</p>
+                    </li>
+                    <li>
+                        <p><i class="fa fa-envelope"></i></p>
+                        <p><strong>Email</strong></br>h.rola@outlook.com</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section Start  -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="">Hardik Rola</a> | &#169; 2021 All Rights
+                Reserved</span>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
 </html>
