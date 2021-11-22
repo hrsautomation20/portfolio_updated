@@ -470,6 +470,7 @@ section .button button:hover {
 /* Contact Me CSS */
 .contact {
     background: rgba(45, 107, 45, 0.1);
+
 }
 
 .contact .content {
@@ -488,12 +489,14 @@ section .button button:hover {
 .contact .fa:before {
     display: inline-block;
     opacity: 0.7;
+
 }
 
 .contact ul li {
     list-style-type: none;
     display: inline;
     margin: .1px !important;
+
 }
 
 
