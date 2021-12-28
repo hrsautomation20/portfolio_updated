@@ -423,13 +423,13 @@ section .button button:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
     cursor: default;
     transition: all 0.4s ease;
-    /* height: fit-content; */
+    height: fit-content;
 }
 
 .work .boxes .box:hover {
     background: var(--primaryColor);
     color: var(--secondaryColor);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .work .boxes .box .icon {
@@ -451,13 +451,15 @@ section .button button:hover {
 }
 
 .work .boxes .box:hover .topic,
-.work .boxes .box:hover p {
+.work .boxes .box:hover p
+ {
     color: black;
     transition: all 0.4s ease;
 }
 
 .work .boxes .box:hover .topic,
-.work .boxes .box:hover p {
+.work .boxes .box:hover p,
+.work .boxes .box:hover .card-link {
     color: var(--secondaryColor);
 }
 
